@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
+
+.main {
+    width: 1920px;
+    height: 6017px;
+    background: #3B322D;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    padding: 0 120px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.header {
+    width: 1300px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.namelogo {
+    text-transform: uppercase;
+    color: #EFE7E2;
+}
+
+.menu {
+    width: 540px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone {
+    width: 160px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+.master {
+    width: 1280px;
+    height: 900px;
+}
+
+.frame19 {
+    width: 1180px;
+    height: 180px;
+    background: #251D1A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.namemaster {
+    width: 230px;
+    height: 120px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #EFE7E2;
+
+}
+
+
+.description-master {
+    width: 280px;
+    height: 81px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B7AAA2;
+}
+
+.second-description-master {
+    width: 263px;
+    height: 54px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B7AAA2;
+}
+
+img {
+    margin: 10px;
+}
+
+
+
+.masters-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 51px;
+    width: 258px;
+    height: 68px;
+    background: #FF6E40;
+    color: white;
+    font-size: 20px;
+    transform: translate(461px, 30px)
+}
